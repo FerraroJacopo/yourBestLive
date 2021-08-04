@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/NomeUtente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Username"
+            android:textAlignment="center"
+            android:textColor="@color/nero"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <View
+            android:id="@+id/lineanome"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@+id/NomeUtente"
+            android:background="@color/rosso" />
+
+        <TextView
+            android:id="@+id/Commento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comment here"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="17sp"
+            android:textStyle="italic"
+            android:layout_below="@+id/lineanome"
+
+            />
+        <View
+            android:id="@+id/lineacommento"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@+id/Commento"
+            android:background="@color/grey" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:theme="@style/RatingBar"
+            style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_above="@+id/lineanome"
+            android:layout_toRightOf="@+id/NomeUtente"
+            android:layout_toEndOf="@+id/NomeUtente" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fsociety.marcopoloapp.MainActivity">
+
+    <item
+        android:id="@+id/nulll"
+        android:title=""
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/segnala_locale"
+        android:title="Report this club       "
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/sponsorizza_locale"
+        android:title="Sponsor this club"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rosso">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/corona"
+        android:layout_below="@+id/versione"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="180dp"
+        android:textSize="25dp"
+        android:text="yourBestLive"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/versione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:text="Versione 1.7"
+        android:textColor="@color/bt_very_light_gray"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/rights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/versione"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="© 2020 Peihana Development \nAll rights reserved."
+        android:textColor="@color/bt_very_light_gray"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rights"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/bt_very_light_gray"
+        android:text="Credits" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:gravity="center"
+        android:text="Giuliano Abruzzo 1712313\nJacopo Ferraro 1708198\nFrancesco Carpineti 1683418\nFederico Gioia 1702089"
+        android:textColor="@color/bt_very_light_gray" />
+</RelativeLayout>

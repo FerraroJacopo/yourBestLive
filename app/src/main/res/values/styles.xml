@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <item name="colorPrimary">@color/rosso</item>
+        <item name="colorPrimaryDark">@color/rossoscuro</item>
+        <item name="colorAccent">@color/rosso</item>
+    </style>
+
+    <style name="RecyclerTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <item name="colorPrimary">@color/rosso</item>
+        <item name="colorPrimaryDark">@color/rossoscuro</item>
+        <item name="colorAccent">@color/rosso</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/logo</item>
+    </style>
+
+    <style name="ToolbarColored" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="TabColored" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/rosso</item>
+        <item name="colorControlNormal">@color/grey</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/rosso</item>
+        <item name="android:textSize">20sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/rosso</item>
+        <item name="colorControlNormal">@color/rosso</item>
+        <item name="colorControlActivated">@color/rosso</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/rosso</item>
+        <item name="colorControlActivated">@color/rosso</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

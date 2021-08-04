@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lineare"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dev.peihana.yourbestlive.PreferitiActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        android:theme="@style/ToolbarColored"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#881c21"
+        app:tabIndicatorColor="@color/grey">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/localitab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="discover" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/preferititab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="favorites" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <TextView
+        android:id="@+id/cscomparsa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="No favorites"
+        android:textSize="25dp"
+        android:textColor="@color/rosso"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:visibility="gone">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/preferiti_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "542481737061",
+    "firebase_url": "https://yourbestlive-bb0bd.firebaseio.com",
+    "project_id": "yourbestlive-bb0bd",
+    "storage_bucket": "yourbestlive-bb0bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542481737061:android:ed7ae8344534d0db",
+        "android_client_info": {
+          "package_name": "dev.peihana.yourbestlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542481737061-p8g2mtd3mesjnpf9dlpho62j2tkn9grp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.peihana.yourbestlive",
+            "certificate_hash": "4143b7b4f2a7a94987ce48623aef27aec95733d3"
+          }
+        },
+        {
+          "client_id": "542481737061-8ccps71ptqt1qn67rn4c5e1n3523ihkj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCCzbNMeh5rSPbLAJfz-hlxEeFo1anxI0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542481737061-8ccps71ptqt1qn67rn4c5e1n3523ihkj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

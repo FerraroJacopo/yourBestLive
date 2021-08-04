@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#881c21</color>
+    <color name="colorPrimary">#881c21</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="light" >#50f5f5f5</color>
+    <color name="white" >#ffffff</color>
+    <color name="nero" >#000000</color>
+    <color name="rosso" >#881c21</color>
+    <color name="grey">	#60808080</color>
+    <color name="giallo" >	#CC7722 </color>
+    <color name="celestino" >#0060A0</color>
+    <color name="trifoglio" >#008080</color>
+    <color name="rossoscuro" >#70191d</color>
+
+
+</resources>

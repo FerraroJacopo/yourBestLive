@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="30dp"
+    android:paddingLeft="30dp"
+    android:paddingBottom="30dp"
+    android:paddingRight="45dp">
+
+
+    <CheckBox
+        android:id="@+id/batteria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Drums"
+        android:theme="@style/MyCheckBox"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="6dp">
+
+        <CheckBox
+            android:id="@+id/ampl1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="10"
+            android:text="Guitar amplifiers"
+            android:theme="@style/MyCheckBox" />
+
+        <EditText
+            android:id="@+id/n_chitarra"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:hint="N°"
+            android:inputType="number"
+            tools:clickable="false" />
+
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/ampl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Bass amplifier"
+        android:theme="@style/MyCheckBox" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/microfoni"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="10"
+            android:text="Microphones"
+            android:theme="@style/MyCheckBox" />
+
+        <EditText
+            android:id="@+id/n_microfoni"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:hint="N°"
+            android:inputType="number"
+            android:paddingTop="2dp" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/mixer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mixer and music box"
+        android:theme="@style/MyCheckBox" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/annulla_button"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/border"
+            android:text="Cancel"
+            android:textColor="@color/rosso" />
+
+        <Button
+            android:id="@+id/conferma_button"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="@drawable/border"
+            android:text="Confirm"
+            android:textColor="@color/rosso" />
+    </LinearLayout>
+
+</LinearLayout>

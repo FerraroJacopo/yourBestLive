@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="dev.peihana.yourbestlive">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icona"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCwDSP2WJQL1N5O77fEKVHeE5JhQXWQhQI" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8443545218197702~7746558476"/>
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LocalRegister"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RecyclerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/RecyclerTheme" />
+        <activity
+            android:name=".LocaleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PreferitiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImpostazioniActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SponsorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SecretActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".SponsorActivityDrop" />
+    </application>
+
+</manifest>
